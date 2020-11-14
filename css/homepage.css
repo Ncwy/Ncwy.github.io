@@ -4,27 +4,30 @@ body {
     letter-spacing: 2px;
 }
 
-
 nav {
     display: block;
     border-bottom: solid 1px black;
     height: 40px;
     width: 100%;
+    padding: 1em;
 }
 
-nav a {
-    margin-left: 10px;
+ul {
+    list-style-type: none;
+    right: 0;
+    position: absolute;
+    top: 0;
+}
+
+li {
+    display: inline-block;
+}
+
+ul a {
+    margin-right: 20px;
     font-weight: normal;
     color: #ff9933;
     text-decoration: none;
-}
-
-a:visited {
-    color: #5f5f5f;
-}
-
-a:hover {
-    color: aquamarine;
 }
 
 h1 {
@@ -42,6 +45,11 @@ section {
 section p {
     font-size: 22px;
     color: #5f5f5f;
+}
+
+img {
+    width: 100px;
+    height: 100px;
 }
 
 span {
@@ -67,4 +75,27 @@ article {
     font-weight: bold;
     cursor: pointer;
     text-decoration: underline;
+}
+
+a:visited {
+    color: grey;
+}
+a:hover {
+    color: aquamarine;
+}
+a:active {
+    color: ivory;
+}
+
+.description {
+    display: flex;
+}
+
+.greeting {
+    width: 50%;
+}
+
+.thisIsNotMe {
+    width: 50%;
+    text-align: center;
 }
