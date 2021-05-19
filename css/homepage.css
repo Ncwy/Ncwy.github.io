@@ -1,103 +1,114 @@
 body {
-    font-family: Arial, sans-serif;
-    color: #5f5f5f;
-    letter-spacing: 2px;
+  font-family: Arial, sans-serif;
+  color: #5f5f5f;
+  letter-spacing: 2px;
+  padding: 0.5em;
+  margin: 0;
 }
 
 nav {
-    display: block;
-    border-bottom: solid 1px black;
-    height: 40px;
-    width: 100%;
-    padding: 1em;
+  display: block;
+  border-bottom: solid 1px black;
+  height: 3em;
+  width: 100%;
 }
 
 nav ul {
-    list-style-type: none;
-    right: 0;
-    position: absolute;
-    top: 0;
+  list-style-type: none;
+  right: 0;
+  position: absolute;
+  top: 0;
 }
 
 li {
-    display: inline-block;
+  display: inline-block;
 }
 
 ul a {
-    margin-right: 20px;
-    font-weight: normal;
-    color: #ff9933;
-    text-decoration: none;
-    font-size: 25px;
+  margin-right: 20px;
+  font-weight: normal;
+  color: #ff9933;
+  text-decoration: none;
+  font-size: 25px;
 }
 
 h1 {
-    color:#ff9933;
-    font-size: 90px;
-    margin: 0;
-    line-height: 1;
-    padding: 0;
+  color: #ff9933;
+  font-size: 90px;
+  margin: 0;
+  line-height: 1;
+  padding: 0;
 }
 
 section {
-    padding: 2em;
+  padding: 2em;
 }
 
 section p {
-    font-size: 22px;
-    color: #5f5f5f;
+  font-size: 22px;
+  color: #5f5f5f;
 }
 
 img {
-    width: 100px;
-    height: 100px;
+  position: absolute;
+  top: 5.5em;
+  right: 3em;
+  width: 100px;
+  height: 100px;
 }
 
 span {
-    color: #ff9933;
-    font-weight: bold;
-    font-size: 36px;
+  color: #ff9933;
+  font-weight: bold;
+  font-size: 36px;
 }
 
 article {
-    text-align: center;
-    font-size: 26px;
-    line-height: 1.6;
+  text-align: center;
+  font-size: 26px;
+  line-height: 1.6;
 }
 
 .newChallenge {
-    cursor: pointer;
-    text-decoration: underline;
-    font-weight: bold;
-    color: #ff9933;
+  cursor: pointer;
+  text-decoration: underline;
+  font-weight: bold;
+  color: #ff9933;
 }
 
 .firstWebsite {
-    font-weight: bold;
-    cursor: pointer;
-    text-decoration: underline;
-    font-size: 25px;
+  font-weight: bold;
+  cursor: pointer;
+  text-decoration: underline;
+  font-size: 25px;
 }
 
 a:visited {
-    color: grey;
+  color: grey;
 }
 a:hover {
-    color: aquamarine;
+  color: aquamarine;
 }
 a:active {
-    color: ivory;
+  color: ivory;
 }
 
 .description {
-    display: flex;
+  display: flex;
 }
 
 .greeting {
-    width: 50%;
+  width: 50%;
 }
 
 .thisIsNotMe {
-    width: 50%;
-    text-align: center;
+  width: 50%;
+  text-align: center;
+}
+
+.projects {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
 }
