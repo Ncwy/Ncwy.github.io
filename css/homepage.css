@@ -4,6 +4,7 @@ body {
   letter-spacing: 2px;
   padding: 0.5em;
   margin: 0;
+  background-color: #fcf8f8;
 }
 
 nav {
@@ -41,12 +42,12 @@ h1 {
 }
 
 section {
-  padding: 2em;
+  padding: 2em 2em 1em;
 }
 
 section p {
   font-size: 22px;
-  color: #5f5f5f;
+  color: #f7f0f0;
 }
 
 .profile {
@@ -79,8 +80,6 @@ article {
 .firstWebsite {
   font-weight: bold;
   cursor: pointer;
-  text-decoration: underline;
-  font-size: 25px;
 }
 
 a:visited {
@@ -95,6 +94,10 @@ a:active {
 
 .description {
   display: flex;
+  background-image: url("../images/title_background.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% 150%;
+  height: 30em;
 }
 
 .greeting {
@@ -109,10 +112,14 @@ a:active {
 .projects {
   display: flex;
   flex-direction: row;
-  justify-content: space-around;
+  justify-content: space-between;
   flex-wrap: wrap;
   text-align: center;
   padding: 0;
+}
+
+.project_details {
+  position: relative;
 }
 
 .project_picture {
@@ -120,4 +127,44 @@ a:active {
   width: 38em;
   margin: 0;
   padding: 0;
+  cursor: pointer;
+  border: 0.5px solid rgb(228, 226, 226);
 }
+
+.mask {
+  position: absolute;
+  top: 0;
+  border: 0.5px solid rgb(228, 226, 226);
+  height: 20em;
+  width: 38em;
+  opacity: 0;
+  cursor: pointer;
+  background-color: rgba(2,57,127,.9);
+}
+
+.mask:hover {
+  background-color: rgba(2,57,127,.9);
+  transition: all .25s ease;
+  opacity: 1;
+  z-index: 1;
+  box-shadow: 10px 10px 10px rgb(174, 174, 174);
+}
+
+.project_name {
+  margin-top: 3em;
+  color: white;
+}
+
+.Icon_Github {
+  height: 6em;
+  width: 6em;
+  margin: 1em;
+}
+
+.Icon_Demo {
+  height: 6em;
+  width: 6em;
+  margin: 1em;
+}
+
+		
