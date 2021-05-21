@@ -120,6 +120,7 @@ a:active {
 
 .project_details {
   position: relative;
+  margin-top: 1em;
 }
 
 .project_picture {
