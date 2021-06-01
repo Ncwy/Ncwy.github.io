@@ -68,6 +68,7 @@ article {
   text-align: center;
   font-size: 26px;
   line-height: 1.6;
+  color: #ff9933;
 }
 
 .newChallenge {
@@ -99,6 +100,7 @@ a:active {
   background-size: 100% 150%;
   height: 30em;
 }
+
 
 .greeting {
   width: 50%;
@@ -140,12 +142,12 @@ a:active {
   width: 38em;
   opacity: 0;
   cursor: pointer;
-  background-color: rgba(2,57,127,.9);
+  background-color: rgba(2, 57, 127, 0.9);
 }
 
 .mask:hover {
-  background-color: rgba(2,57,127,.9);
-  transition: all .25s ease;
+  background-color: rgba(2, 57, 127, 0.9);
+  transition: all 0.25s ease;
   opacity: 1;
   z-index: 1;
   box-shadow: 10px 10px 10px rgb(174, 174, 174);
@@ -167,5 +169,3 @@ a:active {
   width: 6em;
   margin: 1em;
 }
-
-		
