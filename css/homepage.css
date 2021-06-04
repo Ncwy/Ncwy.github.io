@@ -114,15 +114,15 @@ a:active {
 .projects {
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
   flex-wrap: wrap;
-  text-align: center;
+  justify-content:flex-start
   padding: 0;
 }
 
 .project_details {
   position: relative;
-  margin-top: 1em;
+  margin: .5em;
+  text-align: center;
 }
 
 .project_picture {
