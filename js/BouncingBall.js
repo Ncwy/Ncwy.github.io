@@ -56,7 +56,7 @@ levelUp.onclick = function () {
         case 11:
             praise.innerHTML = "WINNER!";
             levelNumber.innerHTML = "Holy cow! You won the whole freakin' thing!";
-            refresh.style.display = "block";
+            replayButton.style.display = "block";
             break;
     }
     i += 1;
