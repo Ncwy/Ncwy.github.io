@@ -1,0 +1,166 @@
+@keyframes bouncing {
+  0% {
+    margin-top: 0px;
+    animation-timing-function: ease-in;
+    background-color: yellow;
+  }
+
+  11% {
+    width: 120px;
+    background-color: green;
+  }
+  12% {
+    margin-top: 500px;
+    width: 135px;
+    animation-timing-function: ease-out;
+    background-color: #329999;
+  }
+  13% {
+    width: 120px;
+    background-color: green;
+  }
+  25% {
+    margin-top: 0px;
+    animation-timing-function: ease-in;
+    background-color: yellow;
+  }
+  36% {
+    width: 120px;
+    background-color: green;
+  }
+  37% {
+    margin-top: 500px;
+    width: 135px;
+    animation-timing-function: ease-out;
+    background-color: #329999;
+  }
+  38% {
+    width: 120px;
+    background-color: green;
+  }
+  49% {
+    margin-top: 0px;
+    animation-timing-function: ease-in;
+    background-color: yellow;
+  }
+  60% {
+    width: 120px;
+    background-color: green;
+  }
+  61% {
+    margin-top: 500px;
+    width: 135px;
+    animation-timing-function: ease-out;
+    background-color: #329999;
+  }
+  62% {
+    width: 120px;
+    background-color: green;
+  }
+  75% {
+    margin-top: 0px;
+    animation-timing-function: ease-in;
+    background-color: yellow;
+  }
+  86% {
+    width: 120px;
+    background-color: green;
+  }
+  87% {
+    margin-top: 500px;
+    width: 135px;
+    animation-timing-function: ease-out;
+    background-color: #329999;
+  }
+  88% {
+    width: 120px;
+    background-color: green;
+  }
+  100% {
+    margin-top: 0px;
+    animation-timing-function: ease-in;
+    background-color: yellow;
+  }
+}
+
+
+
+.bouncing-ball {
+  position: relative;
+  display: flex;
+  text-align: center;
+  justify-content: space-between;
+  height: 46em;
+}
+
+.game-description {
+  width: 50%;
+  height: 40em;
+  padding: 5em;
+  text-align: center;
+}
+
+h1 {
+  font-size: 40px;
+}
+
+p {
+  font-size: 20px;
+}
+
+.gameSection {
+  position: relative;
+  width: 50%;
+  height: 40em;
+  padding: 5em;
+}
+
+.ball {
+  width: 120px;
+  height: 120px;
+  background-color: #329999;
+  border-radius: 50%;
+  cursor: pointer;
+  animation-name: bouncing;
+  animation-duration: 12s;
+  animation-iteration-count: infinite;
+  display: block;
+  margin: auto;
+}
+
+.message {
+  display: none;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  margin: auto;
+  width: 200px;
+  height: 150px;
+}
+
+.replay {
+    text-decoration: none;
+    display: none;
+}
+
+footer {
+  position: absolute;
+  margin: auto;
+  width: 80%;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 50px;
+  background-color: #329999;
+  font-size: 25px;
+}
+
+footer a {
+  margin-right: 10px;
+  margin-left: 10px;
+  color: #fff;
+  text-decoration: none;
+  line-height: 50px;
+}
