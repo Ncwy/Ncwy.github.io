@@ -1,0 +1,270 @@
+@keyframes spin {
+  5% {
+    transform: rotate(-70deg);
+    animation-timing-function: ease-in;
+  }
+  6% {
+    transform: rotate(-5400deg);
+    animation-timing-function: linear;
+  }
+
+  80% {
+    transform: rotate(-720deg);
+    animation-timing-function: ease-out;
+  }
+}
+
+@keyframes grow {
+  40% {
+    transform: scale(1.5, 1.5);
+  }
+  90% {
+    transform: scale(0.5, 0.5);
+  }
+}
+
+@keyframes shake {
+  2% {
+    transform: translate(40px);
+  }
+  4% {
+    transform: translate(-40px);
+  }
+  6% {
+    transform: translate(40px);
+  }
+  8% {
+    transform: translate(-40px);
+  }
+  10% {
+    transform: translate(40px);
+  }
+  12% {
+    transform: translate(-40px);
+  }
+  14% {
+    transform: translate(40px);
+  }
+  16% {
+    transform: translate(-40px);
+  }
+  18% {
+    transform: translate(40px);
+  }
+  20% {
+    transform: translate(-40px);
+  }
+  22% {
+    transform: translate(40px);
+  }
+  24% {
+    transform: translate(-40px);
+  }
+  26% {
+    transform: translate(40px);
+  }
+  28% {
+    transform: translate(-40px);
+  }
+  30% {
+    transform: translate(40px);
+  }
+  32% {
+    transform: translate(-40px);
+  }
+  34% {
+    transform: translate(40px);
+  }
+  36% {
+    transform: translate(-40px);
+  }
+  38% {
+    transform: translate(40px);
+  }
+  40% {
+    transform: translate(-40px);
+  }
+  42% {
+    transform: translate(40px);
+  }
+  44% {
+    transform: translate(-40px);
+  }
+  46% {
+    transform: translate(40px);
+  }
+  48% {
+    transform: translate(-40px);
+  }
+  50% {
+    transform: translate(40px);
+  }
+}
+
+@keyframes hop {
+  15% {
+    transform: translate(-40px, -100px) rotate(20deg);
+  }
+
+  25% {
+    transform: translate(0, 0);
+  }
+  35% {
+    transform: translate(40px, -100px) rotate(-20deg);
+  }
+  45% {
+    transform: translate(0, 0);
+  }
+  55% {
+    transform: translate(-40px, -100px) rotate(20deg);
+  }
+  65% {
+    transform: translate(0, 0);
+  }
+  75% {
+    transform: translate(40px, -100px) rotate(-20deg);
+  }
+  85% {
+    transform: translate(0, 0);
+  }
+  95% {
+    transform: translate(-40px, -100px) rotate(20deg);
+  }
+}
+
+@keyframes hooray {
+  20% {
+    transform: scale(1.5, 1.5) translate(30px, -50px);
+  }
+  30% {
+    transform: translate(0, 0);
+  }
+  40% {
+    transform: scale(1.5, 1.5) translate(-30px, -50px);
+  }
+  50% {
+    transform: translate(0, 0);
+  }
+  60% {
+    transform: scale(1.5, 1.5) translate(30px, -50px);
+  }
+  70% {
+    transform: translate(0, 0);
+  }
+  80% {
+    transform: scale(1.5, 1.5) translate(-30px, -50px);
+  }
+}
+
+body {
+  position: relative;
+  height: 60em;
+  padding: 0;
+  margin: 0;
+}
+
+.wrap {
+  text-align: center;
+}
+.container {
+  position: relative;
+  width: 80em;
+  justify-content: center;
+  margin: auto;
+}
+
+.sweets_box {
+  position: absolute;
+  width: 10em;
+  height: 10em;
+  margin: 2em;
+  cursor: pointer;
+}
+
+.bag {
+  top: 5em;
+  animation-duration: 2s;
+}
+
+.stick {
+  top: 5em;
+  left: 20em;
+  animation-duration: 2s;
+}
+
+.cookie {
+  top: 5em;
+  left: 40em;
+  animation-duration: 2s;
+}
+
+.star {
+  top: 5em;
+  left: 60em;
+  animation-duration: 2s;
+}
+.orange {
+  top: 25em;
+  animation-duration: 2s;
+}
+.ocean {
+  top: 25em;
+  left: 20em;
+  animation-duration: 2s;
+}
+.lollipop {
+  top: 25em;
+  left: 40em;
+  animation-duration: 2s;
+}
+.round {
+  top: 25em;
+  left: 60em;
+  animation-duration: 2s;
+}
+.yellow {
+  top: 40em;
+  animation-duration: 2s;
+}
+.square {
+  top: 40em;
+  left: 20em;
+  animation-duration: 2s;
+}
+.wheel {
+  top: 40em;
+  left: 40em;
+  animation-duration: 2s;
+}
+.chocolate {
+  top: 40em;
+  left: 60em;
+  animation-duration: 2s;
+}
+
+footer {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 50px;
+  background: rgba(0, 0, 0, 0.1);
+}
+
+footer a {
+  text-decoration: none;
+  line-height: 50px;
+  font-size: 20px;
+  font-weight: bold;
+  margin: 2em;
+  padding: 0 0.5em;
+  color: rgb(80, 80, 80);
+}
+
+.home {
+  border-left: 20px solid orange;
+}
+
+.Github {
+  border-left: 20px solid purple;
+}
