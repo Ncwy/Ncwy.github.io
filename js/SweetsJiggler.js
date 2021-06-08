@@ -6,7 +6,7 @@ for (i = 0; i < trigger.length; i++) {
         this.style.animationName = animation[numb];
         setTimeout(() => {
             this.style.animationName = "none";
-        }, 1000);
+        }, 2100);
         numb = Math.floor((Math.random() * animation.length));
     };
 }
