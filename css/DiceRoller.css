@@ -1,0 +1,194 @@
+@keyframes shake {
+  10% {
+    transform: translate(30px);
+  }
+  20% {
+    transform: translate(-30px);
+  }
+  30% {
+    transform: translate(30px);
+  }
+  40% {
+    transform: translate(-30px);
+  }
+  50% {
+    transform: translate(30px);
+  }
+  60% {
+    transform: translate(-30px);
+  }
+  70% {
+    transform: translate(30px);
+  }
+  80% {
+    transform: translate(-30px);
+  }
+  90% {
+    transform: translate(30px);
+  }
+}
+
+html {
+  height: 100%;
+  position: relative;
+}
+body {
+  text-align: center;
+  background-color: #f5f5dc;
+  margin: 0;
+  height: 100%;
+}
+
+.score {
+  margin-top: 5em;
+  font-size: 1.6em;
+  position: relative;
+  height: 3em;
+}
+
+.greeting {
+  display: block;
+}
+
+.score h2 {
+  font-size: 2em;
+  font-weight: bold;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+}
+
+.shake {
+  display: none;
+  animation-name: shake;
+  animation-duration: 0;
+  animation-timing-function: linear;
+}
+
+.point {
+  display: none;
+}
+
+.dice {
+  display: flex;
+  justify-content: space-evenly;
+  width: 30em;
+  margin: auto;
+}
+
+.dice--leftDie {
+  position: relative;
+  width: 10em;
+  height: 10em;
+  background-color: #3300cc;
+  margin: 30px 0;
+  border-radius: 30px;
+}
+
+.dice--rightDie {
+  position: relative;
+  width: 10em;
+  height: 10em;
+  background-color: #3300cc;
+  margin: 30px 0;
+  border-radius: 30px;
+}
+
+.pipleft{
+  position: absolute;
+  width: 2em;
+  height: 2em;
+  background-color: #f5f5dc;
+  border-radius: 50%;
+}
+
+.pipright {
+  position: absolute;
+  width: 2em;
+  height: 2em;
+  background-color: #f5f5dc;
+  border-radius: 50%;
+}
+
+.pip--top-left {
+  top: 1em;
+  left: 1em;
+}
+
+.pip--left {
+  top: 4em;
+  left: 1em;
+}
+
+.pip--bottom-left {
+  top: 7em;
+  left: 1em;
+}
+
+.pip--center {
+  top: 4em;
+  left: 4em;
+  display: none;
+}
+
+.pip--top-right {
+  top: 1em;
+  right: 1em;
+}
+
+.pip--right {
+  top: 4em;
+  right: 1em;
+}
+
+.pip--bottom-right {
+  top: 7em;
+  right: 1em;
+}
+
+.btn {
+  margin: 3em;
+}
+
+.click-me:hover {
+  background-color: #3e8e41;
+}
+
+.click-me:active {
+  background-color: #3e8e41;
+  box-shadow: 1px 1px 5px #666;
+  transform: translateY(4px);
+}
+
+.click-me {
+  width: 10em;
+  height: 2em;
+  background-color: rgb(83, 177, 24);
+  border: 1px solid rgb(83, 177, 24);
+  border-radius: 5px;
+  box-shadow: 3px 3px 7px #666;
+  font-size: 26px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+footer {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgb(250, 28, 28);
+  height: 50px;
+  width: 100%;
+}
+
+footer a {
+  text-decoration: none;
+  font-size: 20px;
+  color: white;
+  line-height: 50px;
+  margin: 0 3em;
+  font-weight: bold;
+}
