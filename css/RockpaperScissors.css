@@ -1,0 +1,126 @@
+@keyframes AIshake {
+  10% {
+    transform: translate(-40px, -40px) rotate(-20deg);
+  }
+  30% {
+    transform: translate(30px, 30px) rotate(20deg);
+  }
+  50% {
+    transform: translate(-30px, -30px) rotate(-20deg);
+  }
+  70% {
+    transform: translate(30px, 30px) rotate(20deg);
+  }
+  90% {
+    transform: translate(-40px, -40px) rotate(-20deg);
+  }
+  100% {
+    transform: translate(10px, 10px) rotate(20deg);
+  }
+}
+
+@keyframes Humanshake {
+  10% {
+    transform: translate(40px, -40px) rotate(20deg);
+  }
+  30% {
+    transform: translate(-30px, 30px) rotate(-20deg);
+  }
+  50% {
+    transform: translate(30px, -30px) rotate(20deg);
+  }
+  70% {
+    transform: translate(-30px, 30px) rotate(-20deg);
+  }
+  90% {
+    transform: translate(40px, -40px) rotate(20deg);
+  }
+  100% {
+    transform: translate(-10px, 10px) rotate(-20deg);
+  }
+}
+
+html,
+body {
+  height: 100%;
+  margin: 0;
+  position: relative;
+  text-align: center;
+  font-family: "Arial Rounded MT Bold", "Helvetica Rounded", Arial, sans-serif;
+  background-color: white;
+}
+
+header {
+  display: flex;
+  justify-content: space-evenly;
+  color: #d11250;
+}
+
+.game-zone {
+  display: flex;
+  justify-content: space-evenly;
+  margin: 2em;
+}
+
+.players h2 {
+  border-bottom: 1px solid #00ace9;
+  width: 10em;
+  margin: 5em 0;
+}
+
+.AI {
+  width: 8em;
+  height: 8em;
+  animation-name: none;
+  animation-duration: 1.5s;
+  animation-timing-function: linear;
+}
+
+.result {
+  width: 10em;
+  font-size: 20px;
+}
+
+.human {
+  width: 8em;
+  height: 8em;
+  animation-name: none;
+  animation-duration: 1.5s;
+  animation-timing-function: linear;
+}
+
+.options {
+  margin: 5em;
+}
+
+.weapon {
+  width: 8em;
+  height: 3em;
+  margin: 2em;
+  background-color: #00ace9;
+  border: none;
+  border-radius: 10px;
+  font-size: 20px;
+  font-weight: bold;
+  color: white;
+  box-shadow: 2px 2px 8px rgb(123, 115, 115);
+}
+
+.weapon:active {
+  box-shadow: 0 0 3px rgb(69, 64, 64);
+  transform: translateY(5px);
+}
+
+footer {
+  position: absolute;
+  bottom: 0;
+  padding: 2em 3em;
+}
+
+footer a {
+  font-size: 20px;
+  font-weight: bold;
+  text-decoration: none;
+  margin-left: 2em;
+  color: red;
+}
