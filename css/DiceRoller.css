@@ -1,47 +1,52 @@
 @keyframes shake {
   10% {
-    transform: translate(30px);
+    transform: translate(20px);
   }
   20% {
-    transform: translate(-30px);
+    transform: translate(-20px);
   }
   30% {
-    transform: translate(30px);
+    transform: translate(20px);
   }
   40% {
-    transform: translate(-30px);
+    transform: translate(-20px);
   }
   50% {
-    transform: translate(30px);
+    transform: translate(20px);
   }
   60% {
-    transform: translate(-30px);
+    transform: translate(-20px);
   }
   70% {
-    transform: translate(30px);
+    transform: translate(20px);
   }
   80% {
-    transform: translate(-30px);
+    transform: translate(-20px);
   }
   90% {
-    transform: translate(30px);
+    transform: translate(20px);
   }
 }
 
 html {
   height: 100%;
-  position: relative;
+  margin: 0;
+  padding: 0;
 }
 body {
+  position: relative;
   text-align: center;
   background-color: #f5f5dc;
   margin: 0;
+  padding: 0;
   height: 100%;
 }
 
+header {
+  height: 5em;
+}
 .score {
-  margin-top: 5em;
-  font-size: 1.6em;
+  font-size: 2em;
   position: relative;
   height: 3em;
 }
@@ -51,7 +56,6 @@ body {
 }
 
 .score h2 {
-  font-size: 2em;
   font-weight: bold;
   position: absolute;
   top: 0;
@@ -83,8 +87,8 @@ body {
   width: 10em;
   height: 10em;
   background-color: #3300cc;
-  margin: 30px 0;
-  border-radius: 30px;
+  margin: 20px 0;
+  border-radius: 20px;
 }
 
 .dice--rightDie {
@@ -92,8 +96,8 @@ body {
   width: 10em;
   height: 10em;
   background-color: #3300cc;
-  margin: 30px 0;
-  border-radius: 30px;
+  margin: 20px 0;
+  border-radius: 20px;
 }
 
 .pipleft{
