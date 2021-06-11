@@ -1,0 +1,88 @@
+html {
+  height: 100%;
+  margin: 0;
+  position: relative;
+  overflow: hidden;
+}
+
+header {
+  height: 5em;
+}
+
+.navigation {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 30px;
+  background-color: rgb(203, 201, 201);
+  text-align: center;
+  margin: 0;
+}
+
+.navigation a {
+  font-size: 20px;
+  color: red;
+  line-height: 30px;
+  font-weight: bold;
+  margin: 0 2em;
+  text-decoration: none;
+}
+.question {
+  margin: auto;
+  width: 25em;
+  height: 3em;
+  font-size: 30px;
+  text-align: center;
+}
+.wrap {
+  margin: auto;
+  height: 10em;
+  width: 100%;
+  padding: 10px;
+}
+.compliments {
+  margin: auto;
+  font-size: 30px;
+  width: 30em;
+  text-align: center;
+}
+
+.inputbox {
+  margin: auto;
+  width: 40em;
+  height: 10em;
+  text-align: center;
+}
+
+.inputbox input {
+  border: 1px solid red;
+  width: 22em;
+  height: 2em;
+  border-radius: 5px;
+  font-size: 20px;
+  margin: 0 1em;
+  text-indent: 5px;
+}
+
+.inputbox button {
+  height: 2.2em;
+  border-radius: 5px;
+  font-size: 20px;
+  background-color: rgb(208, 23, 23);
+  border: none;
+  width: 5em;
+  box-shadow: 3px 3px 8px grey;
+  cursor: pointer;
+  color: rgb(208, 200, 190);
+}
+
+.inputbox button:hover {
+  background-color: rgb(245, 8, 8);
+  color: lightyellow;
+}
+
+.inputbox button:active {
+  box-shadow: 2px 2px 2px grey;
+  transform: translateY(2px);
+}
